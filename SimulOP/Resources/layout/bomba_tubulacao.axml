@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:gravity="center"
+      android:text="Dê os parametros da Tubulação"
+      android:textSize="30sp"
+      android:textColor="#333333"
+      android:layout_gravity="top" />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+    <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_gravity="center">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_vertical"
+          android:layout_marginTop="7dp"
+          android:textSize="20sp"
+          android:text="Diametro: " />
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/textInBombaDiametro"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:minWidth="25px"
+          android:minHeight="25px">
+        <EditText
+            android:id="@+id/testo12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"
+            android:hint="em m" />
+      </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="7dp"
+          android:textSize="20sp"
+          android:text="Comprimento: " />
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/textInBombaComprimento"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/testo22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"
+            android:hint=" em m" />
+      </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="7dp"
+          android:textSize="20sp"
+          android:text="Rugosidade: " />
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/textInBombaRugosidade"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/testo32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"
+            android:hint=" em m" />
+      </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_marginTop="7dp"
+          android:textSize="20sp"
+          android:text="Elevação: " />
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/textInBombaElevacao"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/testo42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="numberDecimal"
+            android:hint=" em m" />
+      </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/menu_bomba_fluido"
+      android:enabled="true"
+      android:icon="@drawable/ic_fluido"
+      android:title="Fluido"
+      app:showAsAction="ifRoom"/>
+
+  <item
+      android:id="@+id/menu_bomba_tubulacao"
+      android:enabled="true"
+      android:icon="@drawable/ic_tubulacao"
+      android:title="Tubulação"
+      app:showAsAction="ifRoom" />
+
+  <item
+      android:id="@+id/menu_bomba_singularidade"
+      android:enabled="true"
+      android:icon="@drawable/ic_singularidade"
+      android:title="Sing."
+      app:showAsAction="ifRoom" />
+
+  <item
+    android:id="@+id/menu_bomba_bomba"
+    android:enabled="true"
+    android:icon="@drawable/ic_bomba"
+    android:title="Bomba"
+    app:showAsAction="ifRoom" />
+
+  <item
+    android:id="@+id/menu_bomba_resultados"
+    android:enabled="true"
+    android:icon="@drawable/ic_resultados"
+    android:title="Resultado"
+    app:showAsAction="ifRoom" />
+
+</menu>

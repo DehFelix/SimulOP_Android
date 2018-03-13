@@ -1,0 +1,43 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black"
+        android:title="Início" />
+  </group>
+
+  <item android:title="OP I - Transferência de quantidade de movimento">
+    <menu>
+      <group android:checkableBehavior="single">
+        <item
+          android:id="@+id/nav_bomba"
+          android:icon="@drawable/ic_bomba_black"
+          android:title="Bomba"/>
+      </group>
+    </menu>
+  </item>
+
+  <item android:title="OP II - Transferência de calor">
+    <menu>
+      <group android:checkableBehavior="single">
+        <item
+          android:id="@+id/nav_trocador"
+          android:icon="@drawable/ic_trocador_black"
+          android:title="Trocador de calor"/>
+      </group>
+    </menu>
+  </item>
+
+  <item android:title="OP III - Transferência de massa">
+    <menu>
+      <group android:checkableBehavior="single">
+        <item
+          android:id="@+id/nav_coluna"
+          android:icon="@drawable/ic_action_home"
+          android:title="Coluna de [to-do]"/>
+      </group>
+    </menu>
+  </item>
+
+</menu>

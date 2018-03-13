@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Nome do App-->
+  <string name="app_name">SimulOP</string>
+  
+  <!--Texto da informacoes-->
+  <string name="BombaInfo">Essa sao as informacoes da bomba [Fazer mais tarde]. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at tristique magna. 
+  Quisque pellentesque facilisis enim, eu auctor turpis gravida et. Duis vitae quam et diam tempus rhoncus sed at neque. Aenean magna libero, condimentum sed nisl vel, 
+  vehicula suscipit diam. Aenean purus mauris, venenatis eu odio condimentum, aliquam posuere tortor. Nam a consequat odio. In at mauris pretium, volutpat erat ac, 
+  maximus nulla. Proin scelerisque diam vitae interdum ultricies.</string>
+  <string name="TrocadorInfo">Essa sao as informacoes do Trocador [Fazer mais tarde]. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim sapien nisi, 
+  in sodales sapien pharetra non. Aliquam erat volutpat. Sed in interdum nisl, non varius diam. Vivamus bibendum, turpis id lacinia rutrum, magna justo euismod lectus, 
+  ac elementum nisl massa nec est. Proin imperdiet nisi sed lectus iaculis, eu blandit odio ultrices.</string>
+  <string name="ColunaInfo">Essa sao as informacoes da Coluna [Fazer mais tarde]. Lorem ipsum in turpis ut ipsum porttitor interdum ac nec nisi. Maecenas efficitur 
+  sapien id fermentum vulputate. Quisque nec consequat velit. Maecenas mollis magna hendrerit risus malesuada congue. Morbi vel urna vestibulum, bibendum ante eu, 
+  sagittis mi. Sed gravida ut elit ac ultrices. Sed in justo sed lectus volutpat lobortis.</string>
+  <string name ="GitInfo">Contribua para esse aplicativo no nosso GitHub: <a href="https://github.com/rafaelterras/SimulOp">https://github.com/rafaelterras/SimulOp</a></string>
+</resources>
